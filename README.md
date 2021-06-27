@@ -10,11 +10,6 @@
 - [x] SQLite
 - [x] JWT
 
-## Middlewares
-
-- [x] User authentification
-- [x] Check user admin
-
 ## Usage
 
 ```sh
@@ -27,6 +22,16 @@ $ yarn typeorm migrations:run
 # Start server
 $ yarn dev
 ```
+
+## Middlewares
+
+- [x] User authentification
+- [x] Check user admin
+
+O que é middlewares?
+
+> R: Os middlewares são interceptadores, ou seja, é ele o intermédiario
+> entre a comunicação entre o cliente (front-end) com a servidor (API).
 
 ## Entity
 
@@ -58,14 +63,7 @@ Controllers
   [x] CreateTag
 ```
 
-## Middlewares
-
-O que é middlewares?
-
-> R: Os middlewares são interceptadores, ou seja, é ele o intermédiario
-> entre a comunicação entre o cliente (front-end) com a servidor (API).
-
-## Regras
+## Rules
 
 - Cadastro de usuário
 
