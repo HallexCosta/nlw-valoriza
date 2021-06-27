@@ -8,6 +8,25 @@
 - [x] Typescript
 - [x] TypeORM
 - [x] SQLite
+- [x] JWT
+
+## Middlewares
+
+- [x] User authentification
+- [x] Check user admin
+
+## Usage
+
+```sh
+# Install
+$ yarn install
+
+# Run migrations
+$ yarn typeorm migrations:run
+
+# Start server
+$ yarn dev
+```
 
 ## Entity
 
