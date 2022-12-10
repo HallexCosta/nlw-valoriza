@@ -10,7 +10,7 @@
 - [x] SQLite
 - [x] JWT
 
-## Usage
+## Como usar?
 
 ```sh
 # Install
@@ -63,28 +63,20 @@ Controllers
   [x] CreateTag
 ```
 
-## Rules
+## Regras
 
 - Cadastro de usuário
-
   - [x] Não é permitido cadastrar mais de um usuário com o mesmo e-mail
-
   - [x] Não é permitido cadastrar usuário sem e-mail
 
 - Cadastro de TAG
-
   - [x] Não é permitido cadastrar mais de uma tag com o mesmo nome
-
   - [x] Não é permitido cadastrar tag sem nome
-
   - [x] Não é permitido o cadastro por usuário que não sejam administradores
 
 - Cadsatro de elogios
-
   - [x] Não é permitido um usuário cadastrar um elogio para si
-
   - [x] Não é permitido cadastrar elogios para usuários inválidos
-
   - [x] O usuário precisa estar autenticado na aplicação
 
 ## Anotações
@@ -94,9 +86,9 @@ Controllers
 ```txt
 GET    => Buscar uma informação
 POST   => Inserir/criar uma informação
-PUT    => Alterar uma informação
-DELETE => Remover um dado
-PATCH  => Alterar uma informação espeficica
+PATCH  => Alterar parcialmente os dados de um recurso ou informação
+PUT    => Alterar todos os dados de um recurso ou informação
+DELETE => Remover algum recurso ou informação
 ```
 
 ### Tipos de parâmetros
@@ -113,6 +105,6 @@ Body params   => {
 ### HTTP
 
 ```txt
-Request  => Entrando dados
-Response => Saindo dados
+Request  => Entrada de dados
+Response => Saida de dados
 ```
